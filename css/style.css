@@ -1,0 +1,468 @@
+/* commissioner-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/commissioner-v20-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* commissioner-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/commissioner-v20-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* commissioner-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/commissioner-v20-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+img {
+  object-fit: cover;
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+body {
+  height: 100%;
+  font-family: 'Commissioner', sans-serif;
+  line-height: 30px;
+  background-color: #FAFAFA;
+       
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1207px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/* Header */
+
+.header {
+  height: 400px;
+  background-image: url("../images/Bitmap\ \(2\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container-wrapper {
+  background-image: linear-gradient(180deg, #000 0%, rgb(0, 0, 0, 0) 100%);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0 60px;
+}
+
+/* .site-logo {
+}
+
+.site-logo-image {
+} 
+
+.sitenav {
+} */
+
+.sitenav-list {
+  display: flex;
+  gap: 32px;
+}
+
+/* .sitenav-item { 
+} */
+
+
+.sitenav-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+
+.main {
+  width: 730px;
+  height: 269px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -71px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.card-logo {
+  margin-top: -28px;
+  padding-left: 337px;
+  padding-right: 393px;
+}
+
+
+.monitor-riser {
+  padding-left: 139px;
+  padding-right: 130px;
+  display: flex;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+card-text {
+  color: #7A7A7A;
+  text-align: center;
+  font-weight: 400;
+  display: flex;
+}
+
+
+.card .card-text {
+  padding-left: 112px;
+  margin-bottom: 57px;
+}
+
+
+.card-head {
+  display: flex;
+
+}
+
+
+.card-badge {
+  width: 204px;
+  height: 56px;
+  border-radius: 33.5px;
+  background: #3CB3AB;
+  margin-left: 48px;
+  padding-left: 52px;
+  padding-top: 13px;
+  cursor: pointer;
+}
+
+
+.card-badge-text {
+  color: #FFF;
+  font-weight: 700;
+
+}
+
+
+.card-badge-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ebe7e7;
+  width: 174px;
+  height: 56px;
+  border-radius: 33.5px;
+  color: rgba(47, 47, 47, 0.5);
+  margin-left: 256px;
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+/* .rectangle-logo {
+
+} */
+
+.card-badge-text-2 {
+  color: #7A7A7A;
+  font-weight: 700;
+}
+
+
+.price {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 71px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 49px;
+}
+
+
+.info-cost {
+  padding-top: 8px;
+  color: #7A7A7A;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+.thum {
+  width: 730px;
+  height: 212px;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+.coll {
+  padding-top: 37px;
+  padding-left: 48px;
+}
+
+.last-one {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.first {
+  width: 730px;
+  height: 1197px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #FFF;
+  margin-top: 35px;
+ 
+}
+
+.project {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 48px;
+  padding-top: 48px;
+  padding-bottom: 35px;
+}
+
+.bamboo {
+  color: #7A7A7A;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 40px;
+}
+
+.second {
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 634px;
+  height: 248px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #FFF;
+}
+
+.thum2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 32px 24px;
+}
+
+.thum2 p {
+  color: #3CB3AB;
+  text-align: right;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.thum2 h4 {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.backer {
+  height: 60px;
+  max-width: 580px;
+  color: #7A7A7A;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px 32px;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page h3 {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.page p {
+  color: #7A7A7A;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.list button {
+  transition: all 0.5s;
+  width: 157px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  background: #3CB3AB;
+  color: #FFF;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.list button:hover {
+  border-radius: 33.5px;
+  background: #147A73;
+}
+
+
+
+
+/* THIRD PARAGRAPH CLASS WORDS EXCHANGED BECAUSE  SOME OF HEADINGS NOT BEING COLORED*/
+
+
+
+.leest {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px 32px;
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.paragraph h3 {
+  color: #a09c9c;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.paragraph p {
+  color: #7A7A7A;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.leest button {
+  transition: all 0.5s;
+  width: 157px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  background: #6d7575;
+  color: #f1ebeb;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.leest button {
+  border-radius: 33.5px;
+  background: #b5b5b5;
+
+}
+
+.pledges {
+  color: #8ffbf4f0;
+  text-align: right;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
